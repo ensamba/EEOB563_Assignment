@@ -1,0 +1,108 @@
+
+COMMAND: REPORT
+Record search status: every 1 secs. 
+
+COMMAND: MULT
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+10    SPR        3 of 3      ------      6781         0:00:00    349,138       
+Completed 10 random addition sequences.
+Total rearrangements examined: 349,138. 
+Best score hit 8 times out of 10.
+Best score (TBR): 6781.  1 trees retained. 
+
+COMMAND: LENGTH
+Tree lengths 
+ 
+             0 
+               
+      0   6781 
+ 
+
+COMMAND: NELSEN
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+ 
+Strict consensus of 1 trees (0 taxa excluded) 
+   ,-- CN_Alatina
+   |  ,-- PO_Clathrina
+|--|  |  ,-- CN_Chiroosalnus
+   `--|  |  ,-- CN_Haliclystus
+      `--|  |  ,-- CN_Hydra_o
+         |  |  |        ,-- CN_Cassiopea
+         `--|  |     ,----- CN_Aurelia
+            |  |  ,--|  ,-- CN_Sarcoph
+            |  |  |  `--|  ,-- CN_Pseudogorgia
+            `--|  |     `----- CN_Briareu
+               |  |        ,-- PO_Plakort
+               |  |     ,----- PO_Oscarel
+               |  |     |  ,-- PO_Xestosp
+               `--|  ,--|  |     ,-- PO_Geodia_
+                  |  |  `--|  ,----- PO_Amphime
+                  |  |     `--|  ,-- PO_Tethya_
+                  |  |        `--|  ,-- PO_Chondri
+                  |  |           `----- PO_Aplysin
+                  |  |        ,-- CN_Nematos
+                  `--|     ,----- CN_Metridi
+                     |  ,--|  ,-- CN_Savaglia
+                     |  |  `----- CN_Chrysop
+                     |  |        ,-- CN_Seriatopora_hystrix
+                     |  |     ,----- CN_Pocillopora_eydouxi
+                     `--|  ,--|  ,-- CN_Astrangia
+                        |  |  `--|  ,-- CN_Montast
+                        |  |     `--|  ,-- CN_Mussa
+                        |  |        `----- CN_Colpophyllia
+                        `--|     ,-- CN_Ricorde
+                           |  ,--|  ,-- CN_Siderastra
+                           |  |  `--|  ,-- CN_Rhodactis
+                           |  |     `----- CN_Discosoma
+                           `--|  ,-- CN_Porites
+                              |  |     ,-- CN_Pavona
+                              `--|  ,----- CN_Agarici
+                                 `--|  ,-- CN_Acropora
+                                    `--|  ,-- CN_Montipora
+                                       `----- CN_Anacropora
+
+COMMAND: RESAMPLE
+ 
+GC values, 100 replicates, cut=0 (tree 0) - Symmetric Resampling (P=33) 
+   ,-- CN_Alatina
+   |         ,-- CN_Chiroosalnus
+|--|     ,--4--- PO_Clathrina
+   |     |    ,-- CN_Haliclystus
+   `--100|    |    ,-- CN_Hydra_o
+         `--17|    |         ,-- CN_Cassiopea
+              |    |    ,--15--- CN_Aurelia
+              `--16|    |         ,-- CN_Sarcoph
+                   |    |   ,--100|    ,-- CN_Pseudogorgia
+                   |    |   |     `--90--- CN_Briareu
+                   `--15|   |              ,-- PO_Plakort
+                        |   |         ,--78--- PO_Oscarel
+                        |   |         |    ,-- PO_Xestosp
+                        |   |    ,--76|    |        ,-- PO_Geodia_
+                        `--6|    |    `--74|   ,--61--- PO_Amphime
+                            |    |         `--9|    ,-- PO_Tethya_
+                            |    |             `--31|    ,-- PO_Chondri
+                            |    |                  `--98--- PO_Aplysin
+                            |    |              ,-- CN_Nematos
+                            `--47|         ,--97--- CN_Metridi
+                                 |    ,--93|    ,-- CN_Savaglia
+                                 |    |    `--81--- CN_Chrysop
+                                 |    |                ,-- CN_Seriatopora_hystrix
+                                 |    |          ,--100--- CN_Pocillopora_eydouxi
+                                 `--96|    ,--100|    ,-- CN_Astrangia
+                                      |    |     `--27|    ,-- CN_Montast
+                                      |    |          `--27|     ,-- CN_Mussa
+                                      |    |               `--100--- CN_Colpophyllia
+                                      `--82|         ,-- CN_Ricorde
+                                           |    ,--16|     ,-- CN_Siderastra
+                                           |    |    `--100|     ,-- CN_Rhodactis
+                                           |    |          `--100--- CN_Discosoma
+                                           `--98|     ,-- CN_Porites
+                                                |     |           ,-- CN_Pavona
+                                                `--100|     ,--100--- CN_Agarici
+                                                      `--100|     ,-- CN_Acropora
+                                                            `--100|     ,-- CN_Montipora
+                                                                  `--100--- CN_Anacropora
+Average group support: 68.2 
+ 
