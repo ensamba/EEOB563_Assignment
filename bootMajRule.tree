@@ -1,0 +1,58 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Sun Feb  4 22:14:27 2018]
+[!
+>Data file = cob_nt.nxs
+>Bootstrap method with heuristic search:
+>  Number of bootstrap replicates = 200
+>  Starting seed = generated automatically
+>  Number of characters resampled in each replicate = 1149
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 1149 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        478 characters are constant
+>        121 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 550
+>    Gaps are treated as "missing"
+>  Starting tree(s) obtained via stepwise addition
+>    Addition sequence: random
+>    Number of replicates = 10
+>    Starting seed = generated automatically
+>    Number of trees held at each step = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+>    Steepest descent option not in effect
+>  Initial 'Maxtrees' setting = 100
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>  200 bootstrap replicates completed
+>  Time used = 14.66 sec (CPU time = 14.65 sec)
+]
+	Translate
+		1 Platypus,
+		2 Echidna,
+		3 Opossum,
+		4 Wallaby,
+		5 Bandicoot,
+		6 Elephant,
+		7 Aardvark,
+		8 Tenrec,
+		9 Sloth,
+		10 Armadillo,
+		11 Human,
+		12 Tree_shrew,
+		13 Rabbit,
+		14 Mouse,
+		15 Hedgehog,
+		16 Flying_fox,
+		17 Cat,
+		18 Dog,
+		19 Pig,
+		20 Whale
+		;
+tree 'PAUP_1' = [&U] (1,2,(((3,5)69.35,4)80.708,6,7,(8,15)65.5,9,10,11,12,13,14,16,17,18,(19,20)81.833)100)100;
+End;

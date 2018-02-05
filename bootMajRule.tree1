@@ -1,0 +1,37 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Sun Feb  4 22:17:16 2018]
+[!
+>Data file = cob_nt.nxs
+>
+>Processing TREES block from file: ~/EEOB563_Assignment/boot.tre
+>  Keeping: trees from file (replacing any trees already in memory)
+>
+>  100 trees read from file
+>
+>  Time used = 8.38 sec (CPU time = 0.01 sec)
+]
+	Translate
+		1 Platypus,
+		2 Echidna,
+		3 Opossum,
+		4 Wallaby,
+		5 Bandicoot,
+		6 Elephant,
+		7 Aardvark,
+		8 Tenrec,
+		9 Sloth,
+		10 Armadillo,
+		11 Human,
+		12 Tree_shrew,
+		13 Rabbit,
+		14 Mouse,
+		15 Hedgehog,
+		16 Flying_fox,
+		17 Cat,
+		18 Dog,
+		19 Pig,
+		20 Whale
+		;
+tree B_1.1 = [&U] (1,2,(((3,5),4),(((6,(8,13)),7),((((9,11),16),((17,18),(19,20))),((10,(14,15)),12)))));
+End;
